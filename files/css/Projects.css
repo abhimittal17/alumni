@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.mytitle{
+  text-align: center;
+  margin-top:1rem;
+  margin-bottom: 2rem;
+  font-size: 2.7rem;
+  color: rgb(65, 65, 65);
+}
+.card{
+  width:26rem;
+  margin-bottom: 1rem;
+}
+
+.card img{
+  height: 15rem;
+}
+@media(max-width:1400px){
+  .card img{
+    height: 12rem;
+  }
+  .card {
+    width: 22rem;
+  }
+}
+/* .card-body:hover{
+  background-color: rgb(105, 24, 255);
+  color: white;
+} */
+.card-body .btn{
+  background-color: rgb(0, 26, 71);
+  color: white;
+}
+.card-body .btn:hover{
+  background-color: rgb(0, 59, 162);
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mytitle h1{
+    margin-top: 8rem;
+    text-align: center;
+    color: rgb(54, 54, 54);
+    font-size: 3.5rem;
+}
+.main-heading {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.ayu-categories{
+    width:95rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+.ayu-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    width:20rem;
+    height:20rem;
+    margin:2rem 1rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+a {
+    text-decoration: none;
+}
+.ayu-box h3{
+    font-size: 1.4rem;
+    letter-spacing:0.1rem;
+    color: yellow;
+    text-transform: uppercase;
+}
+.ayu-box h3:hover{
+    color:rgb(247, 251, 246)
+}
+.ayu-box a{
+    color:rgb(255, 255, 255) ;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.ayu-box a:hover{
+   color:rgb(255, 250, 153);
+}
+#a1{
+    background: rgba(51, 51, 51, 0.75) url("../images/pup_img1.jpg") no-repeat;
+    background-size:25rem 23rem;
+    background-blend-mode:soft-light;
+}
+#a1:hover{
+    background-blend-mode:normal;
+    cursor: pointer;
+}
+#a2{
+        background: rgba(51, 51, 51, 0.75) url("../images/pup_img2.jpg") no-repeat center;
+        background-size:25rem 23rem;
+        background-blend-mode:soft-light;
+}
+#a2:hover{
+    background-blend-mode:normal;
+    cursor: pointer;
+}
+#a3{
+    background: rgba(51, 51, 51, 0.75) url("../images/pup_img3.jpg") no-repeat center;
+    background-size:25rem 23rem;
+    background-blend-mode:soft-light;
+}
+#a3:hover{
+    background-blend-mode:normal;
+    cursor: pointer;
+}
+#a4{
+    background: rgba(51, 51, 51, 0.75) url("../images/pup_img4.jpg") no-repeat center;
+    background-size:25rem 23rem;
+    background-blend-mode:soft-light;
+}
+#a4:hover{
+    background-blend-mode:normal;
+    cursor: pointer;
+}
+#a5{
+    background: rgba(51, 51, 51, 0.75) url("../images/pup_img5.jpg") no-repeat center;
+    background-size:25rem 23rem;
+    background-blend-mode:soft-light;
+}
+#a5:hover{
+    background-blend-mode:normal;
+    cursor: pointer;
+}
+#a6{
+    background: rgba(51, 51, 51, 0.75) url("../images/pup_img1.jpg") no-repeat center;
+    background-size:25rem 23rem;
+    background-blend-mode:soft-light;
+}
+#a6:hover{
+    background-blend-mode:normal;
+    cursor: pointer;
+}

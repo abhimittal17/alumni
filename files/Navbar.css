@@ -1,0 +1,62 @@
+.Logo_Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 3rem;
+  background-color: white;
+}
+
+.Logo1_Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 5rem;
+}
+.stick {
+  position: sticky;
+  top: 0;
+  z-index:2;
+}
+.Logo_Container2 {
+  display: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.Logo1Text {
+  width: 13rem;
+  height: 6rem;
+}
+
+.Logo2_Container {
+  display: none;
+}
+
+.navbar-toggler {
+  color: #011d4c;
+  background-color: aliceblue;
+}
+@media (min-width: 991px) {
+  .navbar_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    font-size: larger;
+    color: white;
+  }
+  .Logo_Container2 {
+    display: flex;
+  }
+  .Logo1Text {
+    width: 18rem;
+    height: 8rem;
+  }
+  .brand {
+    display: none;
+  }
+  .Logo1_Container {
+    height: 8.5vw;
+  }
+}
